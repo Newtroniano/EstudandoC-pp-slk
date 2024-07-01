@@ -19,6 +19,9 @@
     <Filter Include="Arquivos de Origem\Structs">
       <UniqueIdentifier>{88c89904-975d-48b5-889c-4c06c2f36c43}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\Probabilidade">
+      <UniqueIdentifier>{6d97543c-0350-422f-9149-841d8cc14337}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="Carros.cpp">
       <Filter>Arquivos de Origem\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Origem\Probabilidade</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
