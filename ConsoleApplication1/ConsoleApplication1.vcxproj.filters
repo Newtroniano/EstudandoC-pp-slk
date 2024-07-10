@@ -41,5 +41,8 @@
     <ClInclude Include="Pinto.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Arquivos de Origem\Probabilidade</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

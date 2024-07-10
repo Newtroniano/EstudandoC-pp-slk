@@ -1,28 +1,19 @@
 #include <iostream>
 #include <string>
+#include "Users.h"
 using namespace std;
 
-string* penis;
 
-float Probabilidade(float want, float possible) {
-
-	float* result;
-
-	result = &want;
-
-	float prob = *result / possible;
-
-	return prob;
-}
 
 
 void main() {
+	Users *users = new Users();
 
 
-	float result = Probabilidade(1, 6);
+	users->usuarios;
 
-	cout << result;
+	float insertUsers = users->Insert();
+
+	//cout << "Olha essa porra ai seu babaca\n" << result << "\n\n";
 
 }
-
-
